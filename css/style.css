@@ -1,0 +1,76 @@
+.hidden {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 97vh;
+}
+.box {
+  position: absolute;
+}
+#bg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#todo-form input {
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgb(216, 216, 216),
+    50%,
+    rgb(109, 109, 109)
+  );
+}
+#todo-list {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#todo-list button {
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+}
+#login-form input {
+  width: 200px;
+  height: 20px;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(216, 216, 216),
+    50%,
+    rgb(109, 109, 109)
+  );
+}
+
+#login-span {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+#quotes {
+  margin: 20px 0px;
+}
+#time {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  font-size: 30px;
+  font-weight: 550;
+}
